@@ -1,9 +1,9 @@
 === Download Plugins and Themes in ZIP from Dashboard ===
-Contributors: wpcodefactory, omardabbas, karzin, anbinder, algoritmika, kousikmukherjeeli
+Contributors: wpcodefactory, omardabbas, karzin, anbinder, kousikmukherjeeli
 Tags: download, plugin, download plugin, download theme, theme
 Requires at least: 3.1
-Tested up to: 6.8
-Stable tag: 1.9.5
+Tested up to: 6.9
+Stable tag: 1.9.9
 Requires PHP: 5.0.0
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -14,13 +14,13 @@ Download installed plugins and themes in ZIP files directly from your WordPress 
 
 > “Awesome plugin! So helpful in development! I’m a WordPress developer and constantly get into situations where I have to download a theme or plugin from the clients’ servers to debug/customize/etc. In these situations, “Download Plugins and Themes from Dashboard” is the number one choice and way to go. Works perfectly, as described. Many thanks to the developer. Thumbs up!!” – ⭐⭐⭐⭐⭐ [Hemant Arora](https://wordpress.org/support/topic/awesome-plugin-so-helpful-in-development/?utm_source=wporg&utm_medium=organic&utm_campaign=readme)
 
-[Main Page](https://wpfactory.com/item/download-plugins-and-themes-from-dashboard-wordpress-plugin/?utm_source=wporg&utm_medium=organic&utm_campaign=readme "Main Page") | [Support Forum](https://wpfactory.com/support/item/download-plugins-and-themes-from-dashboard-wordpress-plugin/?utm_source=wporg&utm_medium=organic&utm_campaign=readme "Support Forum") | [Documentation & How to](https://wpfactory.com/docs/download-plugins-and-themes-from-dashboard-wordpress-plugin/?utm_source=wporg&utm_medium=organic&utm_campaign=readme "Documentation & How to")
+[Main Page](https://wpfactory.com/item/download-plugins-and-themes-from-dashboard-wordpress-plugin/?utm_source=wporg&utm_medium=organic&utm_campaign=readme "Main Page") | [Support Forum](https://wpfactory.com/support/item/download-plugins-and-themes-from-dashboard-wordpress-plugin/?utm_source=wporg&utm_medium=organic&utm_campaign=readme "Support Forum") | [Documentation & How to](https://wpfactory.com/docs/download-plugins-and-themes/?utm_source=wporg&utm_medium=organic&utm_campaign=readme "Documentation & How to")
 
-Have you ever found yourself in a need to download a plugin or theme file directly from your WordPress admin dashboard, only to discover you lack FTP or cPanel access? 
+Have you ever found yourself in a need to download a plugin or theme file directly from your WordPress admin dashboard, only to discover you lack FTP or cPanel access?
 
 This is basically why we created this plugin, to simplify the process for you, so that with just a single click (literally), you can effortlessly download any plugin or theme right from your dashboard, no technical hurdles or external tools required.
 
-But that's not all. Imagine you've customized a plugin to suit your site's unique needs, only to realize you want to use those modifications elsewhere. With our plugin, you can easily download those customized files, ensuring your hard work is preserved and easily transferable. 
+But that's not all. Imagine you've customized a plugin to suit your site's unique needs, only to realize you want to use those modifications elsewhere. With our plugin, you can easily download those customized files, ensuring your hard work is preserved and easily transferable.
 
 Say goodbye to complex file management and hello to seamless plugin and theme downloads, all from within your WordPress admin interface.
 
@@ -61,7 +61,7 @@ ___
 
 ## 🏆 Do More: PRO Version##
 
-If you want to go further, you can get the premium version of [Quantity Dynamic Pricing & Bulk Discounts for WooCommerce](https://wpfactory.com/item/product-price-by-quantity-for-woocommerce/?utm_source=wporg&utm_medium=organic&utm_campaign=readme) plugin.
+If you want to go further, you can get the premium version of [Download Plugins and Themes in ZIP from Dashboard](https://wpfactory.com/item/download-plugins-and-themes-from-dashboard-wordpress-plugin//?utm_source=wporg&utm_medium=organic&utm_campaign=readme) plugin.
 
 ### 🏆 Set Periodical Plugins and/or Themes Downloads ###
 
@@ -148,6 +148,23 @@ Once activated, access the plugin's settings by navigating to “WPFactory” an
 3. Settings.
 
 == Changelog ==
+
+= 1.9.9 - 22/12/2025 =
+* Fix - Pro version name and link.
+
+= 1.9.8 - 17/12/2025 =
+* Fix - "Documentation & How to" link fixed in the readme.txt.
+
+= 1.9.7 - 11/12/2025 =
+* Dev - Security - Add nonces to the `bulk` downloads.
+* Dev - Coding standards improved.
+* Tested up to: 6.9.
+
+= 1.9.6 - 15/10/2025 =
+* Dev - Admin menu library updated to version 1.0.8.
+* Dev - Cross-selling library updated to version 1.0.6.
+* Dev - Key Manager library updated to version 1.0.7.
+* Removed Algoritmika from contributors.
 
 = 1.9.5 - 04/07/2025 =
 * Dev - WPFactory Admin Menu - Library updated.

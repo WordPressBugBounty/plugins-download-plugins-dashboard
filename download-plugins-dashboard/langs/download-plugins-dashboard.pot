@@ -1,21 +1,21 @@
 # Copyright (C) 2025 WPFactory
-# This file is distributed under the same license as the Download Plugins and Themes from Dashboard Pro plugin.
+# This file is distributed under the GNU General Public License v3.0.
 msgid ""
 msgstr ""
-"Project-Id-Version: download-plugins-dashboard 1.9.5\n"
+"Project-Id-Version: download-plugins-dashboard 1.9.9\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/download-plugins-dashboard\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-07-04T22:04:56+02:00\n"
+"POT-Creation-Date: 2025-12-22T17:54:09+01:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.7.1\n"
 "X-Domain: download-plugins-dashboard\n"
 
 #. Plugin Name of the plugin
-msgid "Download Plugins and Themes from Dashboard Pro"
+msgid "Download Plugins and Themes in ZIP from Dashboard Pro"
 msgstr ""
 
 #. Plugin URI of the plugin
@@ -36,7 +36,7 @@ msgstr ""
 
 #: includes/class-alg-download-plugins-core.php:105
 #: includes/class-alg-download-plugins-core.php:122
-#: includes/class-alg-download-plugins-core.php:761
+#: includes/class-alg-download-plugins-core.php:838
 #: includes/pro/class-alg-download-plugins-pro.php:65
 #: includes/settings/class-alg-download-plugins-settings.php:422
 msgid "Download ZIP"
@@ -54,37 +54,45 @@ msgstr ""
 msgid "Once a Minute"
 msgstr ""
 
-#: includes/class-alg-download-plugins-core.php:577
-msgid "To use %s plugin, %s must be available on your server."
+#: includes/class-alg-download-plugins-core.php:404
+#: includes/class-alg-download-plugins-core.php:469
+msgid "Link expired."
 msgstr ""
 
-#: includes/class-alg-download-plugins-core.php:578
+#. Translators: %1$s: Plugin name, %2$s: Requirement name.
+#: includes/class-alg-download-plugins-core.php:641
+msgid "To use %1$s plugin, %2$s must be available on your server."
+msgstr ""
+
+#: includes/class-alg-download-plugins-core.php:643
 #: includes/settings/class-alg-download-plugins-settings.php:72
-#: includes/settings/class-alg-download-plugins-settings.php:89
 msgid "Download Plugins and Themes from Dashboard"
 msgstr ""
 
-#: includes/class-alg-download-plugins-core.php:598
+#. Translators: %s: Error message.
+#: includes/class-alg-download-plugins-core.php:669
 msgid "Error: %s"
 msgstr ""
 
-#: includes/class-alg-download-plugins-core.php:599
+#: includes/class-alg-download-plugins-core.php:672
 msgid "Something went wrong..."
 msgstr ""
 
-#: includes/class-alg-download-plugins-core.php:688
-msgid "%s can not open a new zip archive (error code %s)."
+#. Translators: %1$s: "ZipArchive", %2$s: Error code.
+#: includes/class-alg-download-plugins-core.php:763
+msgid "%1$s can not open a new zip archive (error code %2$s)."
 msgstr ""
 
-#: includes/class-alg-download-plugins-core.php:750
+#: includes/class-alg-download-plugins-core.php:827
 msgid "Unexpected error"
 msgstr ""
 
-#: includes/class-alg-download-plugins-core.php:816
+#. Translators: %s: Plugin link.
+#: includes/class-alg-download-plugins-core.php:895
 msgid "To use the Bulk Download ZIP, you will need the %s."
 msgstr ""
 
-#: includes/class-alg-download-plugins-core.php:819
+#: includes/class-alg-download-plugins-core.php:897
 #: includes/settings/class-alg-download-plugins-settings.php:265
 msgid "Pro version"
 msgstr ""
@@ -97,13 +105,14 @@ msgstr ""
 msgid "Go Pro"
 msgstr ""
 
-#: includes/pro/class-alg-download-plugins-pro.php:128
-#: includes/pro/class-alg-download-plugins-pro.php:133
+#: includes/pro/class-alg-download-plugins-pro.php:138
+#: includes/pro/class-alg-download-plugins-pro.php:167
 msgid "Run now"
 msgstr ""
 
-#: includes/pro/class-alg-download-plugins-pro.php:130
-#: includes/pro/class-alg-download-plugins-pro.php:135
+#. Translators: %s: Time difference in a human-readable format.
+#: includes/pro/class-alg-download-plugins-pro.php:146
+#: includes/pro/class-alg-download-plugins-pro.php:175
 msgid "Scheduled in %s"
 msgstr ""
 
@@ -117,6 +126,10 @@ msgstr ""
 
 #: includes/settings/class-alg-download-plugins-settings.php:73
 msgid "Download plugins and Themes"
+msgstr ""
+
+#: includes/settings/class-alg-download-plugins-settings.php:89
+msgid "Download Plugins and Themes in ZIP from Dashboard"
 msgstr ""
 
 #: includes/settings/class-alg-download-plugins-settings.php:94

@@ -1,14 +1,15 @@
 <?php
 /*
-Plugin Name: Download Plugins and Themes from Dashboard
+Plugin Name: Download Plugins and Themes in ZIP from Dashboard
 Plugin URI: https://wpfactory.com/item/download-plugins-and-themes-from-dashboard/
 Description: Download installed plugins and themes ZIP files directly from your admin dashboard without using FTP.
-Version: 1.9.5
+Version: 1.9.9
 Author: WPFactory
-Copyright: © 2025 WPFactory
 Author URI: https://wpfactory.com
 Text Domain: download-plugins-dashboard
 Domain Path: /langs
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
 
 defined( 'ABSPATH' ) || exit;
@@ -26,7 +27,10 @@ if ( 'download-plugins-from-dashboard.php' === basename( __FILE__ ) ) {
 	$plugin = 'download-plugins-from-dashboard-pro/download-plugins-from-dashboard-pro.php';
 	if (
 		in_array( $plugin, (array) get_option( 'active_plugins', array() ), true ) ||
-		( is_multisite() && array_key_exists( $plugin, (array) get_site_option( 'active_sitewide_plugins', array() ) ) )
+		(
+			is_multisite() &&
+			array_key_exists( $plugin, (array) get_site_option( 'active_sitewide_plugins', array() ) )
+		)
 	) {
 		return;
 	}
@@ -34,7 +38,7 @@ if ( 'download-plugins-from-dashboard.php' === basename( __FILE__ ) ) {
 
 // Plugin version constant
 if ( ! defined( 'ALG_DOWNLOAD_PLUGINS_VERSION' ) ) {
-	define( 'ALG_DOWNLOAD_PLUGINS_VERSION', '1.9.5' );
+	define( 'ALG_DOWNLOAD_PLUGINS_VERSION', '1.9.9' );
 }
 
 // Plugin file constant
